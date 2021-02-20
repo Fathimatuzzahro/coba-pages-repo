@@ -1,0 +1,14 @@
+body{font-family: verdana; font-size: 12px; background-color: #D7E7F3}
+a{color: blue; text-decoration: none; font-family: verdana; font-size: 12px}
+a:hover{text-decoration: underline; font-weight: bold; color: navy}
+a:visited{color: navy}
+td{font-family; verdana; font-size: 12px}
+.puisi{font-family: Palatino LinoType; font-size: 15px; font-style: italic}
+.foto{background-color: white}
+.judul{font-size: 18px; font-weight: bold; text-align: center}
+
+Note :  
+Pertama, font utama dari halaman websitenya adalah Verdana dan ukurannya adalah 12 point/pixel. Oleh karena itu kita, meletakkan CSSnya pada tag body. 
+Untuk linknya, warna linknya berubah menjadi biru tua(navy) dan memiliki garis bawah ketika user menggerakkan mouse ke link tersebut. Untuk link yang sudah pernah diklik akan warnanya menjadi navy.
+Sedangkan untuk puisi, fontnya berjenis Palatino LinoType dan hurufnya miring. 
+Karena tidak ingin repot, kita juga membuat class untuk kata-kata yang ingin dijadikan judul. Kita memberi ukuran 18px, tebal dan berada ditengah untuk class judul tersebut.
